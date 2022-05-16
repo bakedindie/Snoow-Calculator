@@ -18,5 +18,11 @@
     <ClCompile Include="OpenClassRoom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="oper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
