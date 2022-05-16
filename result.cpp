@@ -5,13 +5,16 @@ float Addition(float a, float b);
 float Multiplication(float a, float b);
 float Substraction(float a, float b);
 float Division(float a, float b);
+void ShowResult(float c);
+
+float x;
+float y;
+char oper;
+float result;
 
 void Result()
 {
-	float x;
-	float y;
-	char oper;
-	float result;
+	
 
 Boot:
 
@@ -22,17 +25,17 @@ Boot:
 	{
 	case '+':
 		result = Addition(x, y);
-		std::cout << result << std::endl;
+		ShowResult(result);
 		Space();
 		break;
 	case '*':
 		result = Multiplication(x, y);
-		std::cout << result << std::endl;
+		ShowResult(result);
 		Space();
 		break;
 	case '-':
 		result = Substraction(x, y);
-		std::cout << result << std::endl;
+		ShowResult(result);
 		Space();
 		break;
 	case '/':
@@ -44,7 +47,7 @@ Boot:
 		else
 		{
 			result = Division(x, y);
-			std::cout << result << std::endl;
+			ShowResult(result);
 		}
 		Space();
 		break;
@@ -54,6 +57,6 @@ Boot:
 		goto Boot;
 		break;
 	}
-	Space();
+	Space(); 
 	goto Boot;
 }

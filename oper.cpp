@@ -24,3 +24,8 @@ float Division(float a, float b)
 {
 	return a / b;
 }
+
+void ShowResult(float c)
+{
+	std::cout << c << std::endl;
+}
