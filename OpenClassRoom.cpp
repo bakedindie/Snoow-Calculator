@@ -5,7 +5,7 @@ void Result();
 
 int main()
 {
-	std::cout << "Welcome to Snoow Calculator v1.1b" << std::endl;
+	std::cout << "Welcome to Snoow Calculator v1.4b" << std::endl;
 	Space();
 
 	Result();
